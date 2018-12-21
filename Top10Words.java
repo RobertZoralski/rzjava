@@ -22,6 +22,7 @@ public class Top10Words {
 		String line;
 		while( (line = br.readLine()) != null ) {
 			
+			//skip empty lines
 			if(0==line.length()) continue;
 			
 			//strip double spaces and some interpunction chars
